@@ -1,0 +1,317 @@
+html{
+    margin: 0;
+}
+body{
+    margin:0;
+}
+#Header{
+    background: green;
+    height: 70px;
+}
+#NameOfPark{
+    max-width: auto;
+    font-size: 50px;
+}
+#ParkReview{
+    max-width: auto;
+}
+.reviewers{
+    position: absolute;
+    margin-top: 15px;
+    max-height: auto;
+    max-width: auto;
+    font-size: 30px;
+    color: darkgreen;
+}
+
+#Content{
+    margin-top: 70px; 
+}
+#Pictures{
+    padding: 15px;
+}
+#Location{
+    padding-left: 50px;
+    font-size: 20px;
+    font-style: oblique;
+}
+#PeopleReview{
+    padding: 16px;
+    max-width: auto;
+    background-color:#f1f1f1;
+    overflow: hidden;
+}
+#PeopleOne{
+    padding: 10px;
+    border-radius: 10px;
+    border-style:solid;
+    border-width: 5px;
+    border-color: darkgreen;
+}
+#PeopleTwo{
+    padding: 10px;
+    border-radius: 10px;
+    border-style:solid;
+    border-width: 5px;
+    border-color: darkgreen;
+}
+#PeopleThree{
+    padding: 10px;
+    border-radius: 10px;
+    border-style:solid;
+    border-width: 5px;
+    border-color: darkgreen;
+}
+#people1comment{
+    position: absolute;
+    padding: 15px;
+}
+#left{
+    width: 600px;
+    max-width: auto;
+    float: left;
+}
+#right{
+    height: auto;
+    margin-left: 610px;
+}
+#myReview{
+    width: 100%;
+    height: 100px;
+    max-width: auto;
+}
+.btn {
+    position: relative;
+    left: 250px;
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Courier New;
+    color: #ffffff;
+    font-size: 23px;
+    background: #4ad934;
+    padding: 10px 5px 10px 5px;
+    text-decoration: none;
+    max-width: 100%;
+    border-style: groove;
+}
+
+.btn:hover {
+    background: #0a8236;
+    text-decoration: none;
+}
+
+@media screen and (max-width:990px) {
+    .btn {
+        left:0px;
+    }
+}
+
+.timetable {
+    border-collapse:collapse;
+    max-width: auto;
+    border-style: solid;
+    border-width: 2px;
+    width: 100%;
+    margin-top: -15px;
+    border-color: darkgreen;
+}
+#openinghour{
+    text-decoration:underline; 
+    text-align: center;
+    font-family: fantasy;
+    color: darkgreen;
+}
+.timetable td {
+    font-family:Arial, sans-serif;
+    font-size:14px;
+    text-align: center;
+    border-style:solid;
+    border-width:1px;
+    overflow:hidden;
+    word-break:normal;
+}
+.timetable th {
+    font-family:Arial, sans-serif;
+    font-size:14px;
+    font-weight:normal;
+    border-style:solid;
+    border-width:1px;
+    overflow:hidden;
+    word-break:normal;
+}
+.timetable .tg-t2cw{
+    font-weight:bold;
+    text-decoration:underline;
+    text-align:center;
+    vertical-align:top
+}
+.timetable .tg-yw4l{
+    vertical-align:top
+}
+#left h1{
+    color: darkgreen;
+    text-align: center;
+}
+#informationcontent{
+    border-style:solid;
+    border-width: 2px;
+    border-color: green;
+}
+#informationcontent h1{
+    text-decoration:underline; 
+    text-align: center;
+    font-family: fantasy;
+    color: darkgreen;
+}
+#informationcontent p{
+    font-size: 17px
+}
+
+#nav {
+    overflow: hidden; 
+	width: 100%;
+	height: auto;
+	background-color: rgba(0,0,0,0.5);
+    color: rgba(0, 173, 0, 0.5);
+	position: fixed;
+	top: 0; 
+    padding: 10px; 
+    z-index: 10;
+}
+
+.navL {
+    margin-left: 5%;
+}
+
+.navL a {
+	font-size: 17px;
+	color: white;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+    float: left;
+	list-style-type: none;
+	padding-right: 25px; 
+    padding: 10px; 
+    text-align: center; 
+    display: block; 
+}
+
+
+#nav a:hover {
+	color: #ff6868;
+}
+
+.navL a.topNav {
+    display: none; 
+}
+
+#logIn{
+    float: right;
+    margin-right: 30px; 
+    border: solid 1px white; 
+    border-radius: 20%;
+}
+
+#signUp{
+    float: right;
+    margin-right: 40px; 
+    border: solid 1px white; 
+    border-radius: 20%;
+}
+#image{
+    position: relative;
+    max-height: 70px;
+    margin-top: -30px;
+	margin-left: 75%; 
+}
+#image img{
+    width: 50%;
+    height: auto;
+}
+#navigationbar{
+    position: relative;
+	font-size: 25px;
+	top:20px;
+    height: 30px;
+    width: auto;
+	color: white;
+}
+
+label[for=HomePage]{
+    position: absolute;
+    left: 50px;
+}
+label[for=RegisterPage]{
+	position: absolute;
+    left: 140px
+}
+label[for=ReviewPage]{
+    position: absolute;
+    left:250px;
+}
+
+footer{   
+    bottom: 0px; 
+    margin-top: 10px; 
+    width: 100%;
+    height: auto;
+}
+
+#top{
+    background-color: black; 
+    width: 100%;
+    height: 50px;
+    padding: 50px 0px 0px 0px;
+    text-align: center;
+}
+
+#top a{
+    margin-right: 10px;
+    padding: 5px; 
+    border-right: solid 1px white; 
+    color: white; 
+    font-family: Arial; 
+    text-decoration: none;
+}
+
+#top a:hover {
+    color: #ff6868; 
+}
+
+#bottom{
+    background-color: #84D063; 
+    width: 100%;
+    height: 50px;
+    padding: 5px 0px 0px 0px;
+    color: white; 
+    text-align: center;
+}
+
+@media screen and (max-width: 600px){
+    
+    #nav {
+        padding: 0; 
+    }   
+    
+    .navL a.topNav{
+        display: block;
+    }
+    
+    .navL.responsive a.topNav{
+        color: #ff6868;
+    }
+    
+    .navL a{
+        display: none; 
+    } 
+    
+    .navL.responsive {position: relative;}
+    .navL.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+
+}

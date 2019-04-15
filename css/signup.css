@@ -1,0 +1,311 @@
+html{
+    height:785px;
+    width:100%;
+    padding:0;
+    margin:0;
+}
+#firstMissing{
+    color: red;
+    max-width: 100%;
+    margin-left: 20px;
+}
+#lastMissing{
+    color: red;
+    max-width: 100%;
+    margin-left: 20px;
+}
+#genderMissing{
+    color: red;
+    max-width: 100%;
+    margin-left: 20px;
+}
+#emailMissing{
+    color: red;
+    max-width: 100%;
+    margin-left:0px;  
+}
+#passwordMissing{
+    color: red;
+    max-width: 100%;
+    margin-left:0px; 
+}
+
+#codeMissing{
+    color: red;
+    max-width: 100%;
+    margin-left:0px; 
+}
+#dateMissing{
+    color: red;
+    max-width: 100%;
+    margin-left:30px;
+}
+#submitMissing{
+    color: red;
+    max-width: 100%;
+    margin-left:70px;
+}
+
+@media screen and (max-width:1148px) {  
+  #tree_image {
+    display: none;
+  }
+}
+
+.special {
+    left: 150px;
+    margin-top:100px;
+    margin-bottom: 100px;
+    margin-left: 25%;
+    margin-right: auto;
+    max-width: 340px;
+    background: white; 
+    border: solid 3px green;
+    padding: 20px;
+    font-family: arial; 
+    width: 50%; 
+}
+
+@media screen and (max-width:670px) {
+    .special {
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 320px;
+    }
+}
+@media screen and (max-width:415px){
+    label[for=HomePage]{
+        visibility: hidden;
+    }
+    label[for=RegisterPage]{
+        visibility: hidden;
+    }
+    label[for=ReviewPage]{
+        visibility: hidden;
+    }
+}
+
+#navigationbar{
+    position: relative;
+	font-size: 25px;
+	top:20px;
+    height: 30px;
+    width: auto;
+	color: white;
+}
+
+#bioError{
+    color: red; 
+}
+
+#bioForm{
+    border-radius: 20px;
+    margin-top: 10px;
+    width: 92%;
+    border-style: groove;
+    position: static;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 10px 10px 12px 15px;
+}
+
+label[for=HomePage]{
+    position: absolute;
+    left: 50px;
+}
+label[for=RegisterPage]{
+	position: absolute;
+    left: 140px
+}
+label[for=ReviewPage]{
+    position: absolute;
+    left:250px;
+}
+
+.signupheader{
+    width: 100%; 
+}
+
+.signupheader img{
+    width: 100%; 
+}
+
+form {
+    color: black; 
+}
+
+.form-group p label{
+    color: black; 
+}
+
+textarea{
+
+}
+
+input[name="firstname"]{
+    border-radius: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+    max-width: 90%;
+    border-style: groove;
+    position: static;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 10px 10px 12px 15px;
+}
+input[name="lastname"]{
+    border-radius: 20px;
+    text-align: center;
+    max-width: 90%;
+    border-style: groove;
+        border-radius: 4px;
+    font-size: 16px;
+    padding: 10px 10px 12px 15px;
+}
+
+input[name="email"]{
+    margin-bottom: 10px;
+    border-radius: 20px;
+    width: 332px;
+    max-width: 90%;
+    position: static;
+    border-style: groove;
+        border-radius: 4px;
+    font-size: 16px;
+    padding: 10px 10px 12px 15px;
+}
+input[name="pass"]{
+    margin-bottom: 10px;
+    border-radius: 20px;
+    width: 332px;
+    max-width: 90%;
+    position: static;
+    border-style: groove;
+        border-radius: 4px;
+    font-size: 16px;
+    padding: 10px 10px 12px 15px;
+}
+input[name="cpass"]{
+    margin-bottom: 10px;
+    border-radius: 20px;
+    width: 332px;
+    max-width: 90%;
+    position: static;
+    border-style: groove;
+        border-radius: 4px;
+    font-size: 16px;
+    padding: 10px 10px 12px 15px;
+}
+input[name="code"]{
+    width: 330px;
+    border-radius: 20px;
+    max-width: 90%;
+    position: static;
+    border-style: groove;
+        border-radius: 4px;
+    font-size: 16px;
+    padding: 10px 10px 12px 15px;
+}
+label[for="dateofbirth"]{
+    color: white;
+}
+.malefemale{
+    color: black;
+    font-family: 
+}
+select[name="day"]{
+    border-radius: 20px;
+    text-align-last: center;
+    width: 110px;
+    max-width: 100%;
+    border-style: groove;
+            border-radius: 4px;
+    font-size: 16px;
+    padding: 10px 10px 12px 15px;
+}
+select[name="month"]{
+    border-radius: 20px;
+    text-align-last: center;
+    width: 110px;
+    max-width: 100%;
+    border-style: groove;
+            border-radius: 4px;
+    font-size: 16px;
+    padding: 10px 10px 12px 15px;
+}
+select[name="year"]{
+    border-radius: 20px;
+    text-align-last: center;
+    width: 110px;
+    max-width: 100%;
+    border-style: groove;
+            border-radius: 4px;
+    font-size: 16px;
+    padding: 10px 10px 12px 15px;
+}
+input[name="signup"]{
+    margin-top: 10px;
+    width: 340px;
+    border-radius: 20px;
+    max-width: 100%;
+    position: static;
+    border-style: groove;
+}
+#tree_image{
+    position: absolute; 
+    z-index: -1;
+    right: 100px; 
+    top: 210px;
+}
+
+footer{  
+    bottom: 0px; 
+    margin-top: 10px; 
+    width: 100%;
+    height: auto;
+}
+
+#top{
+    background-color: black; 
+    width: 100%;
+    height: 50px;
+    padding: 50px 0px 0px 0px;
+    text-align: center;
+}
+
+#top a{
+    margin-right: 10px;
+    padding: 5px; 
+    border-right: solid 1px white; 
+    color: white; 
+    font-family: Arial; 
+    text-decoration: none;
+}
+
+#top a:hover {
+    color: #ff6868; 
+}
+
+#bottom{
+    background-color: #84D063; 
+    width: 100%;
+    height: 50px;
+    padding: 5px 0px 0px 0px;
+    color: white; 
+    text-align: center;
+}
+
+body{
+    margin: auto;
+    background-color: beige; 
+}
+
+@media screen and (max-width: 670px){
+    footer{
+        position: static; 
+    }
+}
+
+
+

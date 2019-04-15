@@ -1,0 +1,325 @@
+body {
+	margin: auto; 
+}
+
+#wrapper{
+    width: 100%;
+    height: 100%; 
+}
+
+header {
+    height: 100%; 
+    background-size: 100% auto;
+	background-image: url(../img/header2.jpg);
+	background-repeat: no-repeat; /* This stops it from repeting */
+}
+
+#Logo {
+	position: absolute;
+	margin-left: 25%; 
+	margin-right: 25%; 
+	margin-top:10%;
+}
+
+#Logo img{
+	width: 100%;
+	height: auto;
+} 
+
+input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    font-style: italic;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 20px;
+    position: absolute;
+    margin-left: 25%; 
+	margin-right: 25%; 
+	margin-top: 25%;
+    width: 40%
+}
+
+input, select, textarea{
+    color:dimgray;
+}
+
+input[type=text]:focus {
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed
+}
+
+.searchButton {
+    background-color:#008CBA;
+    -moz-border-radius:12px;
+    -webkit-border-radius:12px;
+    border-radius:12px;
+    border:1px solid #008CBA;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:16px;
+    padding:12px 31px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #2f6627;
+    margin-top: 25%;
+    margin-left: 66%
+}
+
+.searchButton:hover {
+    background-color:#05759a;
+    border:1px solid #05759a;
+}
+
+.searchButton:active{
+    position:relative;
+	top:1px;
+}
+
+#border{
+    margin-top: 20%;
+    height: 100%; 
+}
+
+content {
+    width: 100%; 
+    height: 100%;
+}
+
+#popularParks {
+    width: 100%; 
+    height: auto;
+}
+
+#popularTitle{
+    text-align: center; 
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+#popularTitle h1{
+    font-size: 60px; 
+    font-family: Arial; 
+    color: dimgray; 
+    text-decoration: underline;
+}
+
+.namesPark {
+    position: absolute; 
+    margin-top: 280px; 
+    margin-left: 20%; 
+    background-color: aqua; 
+	background-color:#34a2eb;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:19px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.namesPark:hover {
+	background-color:#4a90e6;
+}
+.namesPark:active {
+	top:1px;
+}
+
+
+#imageHolder{
+    margin-left: 10%; 
+    margin-right: 10%;
+    height: auto;
+    margin-bottom: 15%; 
+}
+
+.img { 
+    float: left; 
+    width: 250px; 
+    height: 250px; 
+    border-radius: 50%; 
+    border: 5px solid #ff6868;   
+    background-color:chocolate; 
+    background-size: cover; 
+    position: absolute; 
+    z-index: 5; 
+}
+
+#second{
+    margin-left: 30%;  
+}
+
+#third{
+    margin-left: 60%; 
+}
+
+.overlay{
+    position: absolute; 
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 50%; 
+    height: 250px;
+    width: 250;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+}
+
+.img:hover .overlay{
+    opacity: 0.5; 
+}
+
+footer{
+    position: relative; 
+    bottom: 0px;
+    width: 100%;
+    height: auto;
+}
+
+#top{
+    background-color: black; 
+    width: 100%;
+    height: 50px;
+    padding: 50px 0px 0px 0px;
+    text-align: center;
+}
+
+#top a{
+    margin-right: 10px;
+    padding: 5px; 
+    border-right: solid 1px white; 
+    color: white; 
+    font-family: Arial; 
+    text-decoration: none;
+}
+
+#top a:hover {
+    color: #ff6868; 
+}
+
+#bottom{
+    background-color: #84D063; 
+    width: 100%;
+    height: 50px;
+    padding: 50px 0px 0px 0px;
+    color: white; 
+    text-align: center;
+}
+
+#advancedSearch{
+    color: deepskyblue;
+    position: absolute;
+    margin-top:30%;
+    margin-left: -105px;  
+    font-size: 15px;
+    font-family: sans-serif; 
+}
+
+
+@media screen and (max-width: 1150px){
+    #imageHolder{
+        margin-left: 8%; 
+    }
+    
+    #popularTitle{
+        margin-left: 
+    }
+}
+
+@media screen and (max-width: 1135px){
+    
+    #imageHolder{
+        margin-left: 35%; 
+    }
+    
+    .img{
+        float: none; 
+        margin-bottom: 110px;  
+        position: inherit; 
+    }
+    
+    .overlay{
+        position: inherit; 
+    }
+    
+    .namesPark{
+        position: inherit;
+        bottom: 5px; 
+    }
+    
+    #second {   
+        margin-left: 0%; 
+    }
+    
+    #third {
+        margin-left: 0%; 
+    }
+}
+
+@media screen and (max-width: 600px){
+    
+    #Logo {
+        margin-left: 10%;
+        margin-right: 10%;
+    } 
+    
+    #nav {
+        padding: 0; 
+    }   
+    
+    input[type=text]{
+        margin-top: 35%;
+        margin-left: 15%;
+        width: 70%;
+    }
+    
+
+    .searchButton{
+        visibility: hidden;
+    }
+    
+    .navL a.topNav{
+        display: block;
+    }
+    
+    .navL.responsive a.topNav{
+        color: #ff6868;
+    }
+    
+    .navL a{
+        display: none; 
+    } 
+    
+    .navL.responsive {position: relative;}
+    .navL.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+    
+           
+    #imageHolder{
+        margin-left: 15%;
+        margin-right: 15%; 
+    } 
+    
+    .img{
+        float: none; 
+        margin-bottom: 5%: 
+    }
+
+}
+
+
+

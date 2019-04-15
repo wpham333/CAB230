@@ -1,0 +1,62 @@
+body {
+    margin: auto;
+    background-image: url(../img/Login/parkview.jpg); 
+    background-size: cover; 
+    background-attachment: fixed; 
+}
+
+#results{
+    background-color: white; 
+    margin-top: 30px; 
+    width: 60%; 
+    min-width: 280px;
+    margin-left: 7%; 
+    box-shadow: 0 0 10px #9ecaed; 
+    border-radius: 5px; 
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+table {
+    padding: 30px;
+    margin-left: 5%; 
+    font-family: sans-serif; 
+}
+
+#images {
+    border: 2px solid; 
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%; 
+}
+
+#parkName {
+    color: cornflowerblue;
+    font-size: 25px; 
+}
+
+#ratings{
+    font-size: 15px;
+    background-color: green; 
+    color: white; 
+    padding: 3px; 
+    border-radius: 2px;
+}
+
+.otherInfo{
+    font-family: sans-serif; 
+    margin-left: 5%;
+}
+
+#eachResults{
+    border-bottom: 1px solid; 
+}
+  
+@media screen and (max-width: 615px){
+    #results{
+        margin-left: 10px; 
+        margin-top: 80px;
+        width: 90%;
+    }
+}
+

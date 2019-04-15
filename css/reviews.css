@@ -1,0 +1,215 @@
+body{
+    margin: auto; 
+    background-image: url(../img/Login/parkview.jpg);
+    background-size: cover; 
+    background-attachment: fixed;
+}
+
+
+#results {
+    margin-top: 30px; 
+    width: 60%; 
+    margin-left: 7%; 
+}
+
+#Info {
+    background-color: white;
+    min-width: 280px;
+    padding-bottom: 1px;
+    box-shadow: 0 0 10px #9ecaed; 
+    height: 200px; 
+    border-radius: 5px; 
+}
+
+#Info ul li{
+    list-style-type: none; 
+    margin-bottom: 15px;
+    margin-left: 1%; 
+    font-family: Arial;
+}
+
+
+
+#name{
+	font-size: 30px;
+    color: #333333; 
+    margin-left: 5%; 
+    padding-top: 10px; 
+}
+
+#submitReview{
+    margin-top: 10px; 
+    background-color: white; 
+    box-shadow: 0 0 10px #9ecaed; 
+    border-radius: 5px; 
+    height: auto; 
+    padding-bottom: 30px; 
+}
+
+#submitReview form{
+    margin-left: 5%;
+}
+
+#submitReview h3{
+    margin-left: 5%; 
+    font-family: sans-serif;
+    padding-top: 15px;
+}
+
+#alertButton{
+    background-color:#008CBA;
+    -moz-border-radius:12px;
+    -webkit-border-radius:12px;
+    border-radius:12px;
+    border:1px solid #008CBA;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:16px;
+    padding:12px 31px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #2f6627;
+    margin-left: 40%; 
+}
+
+.cc-selector input{
+    padding-top: 20px;
+    -webkit-appearance:none;
+       -moz-appearance:none;
+            appearance:none;
+}
+
+#a1{
+    padding: 30px;
+    background-image: url(../img/rating/1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#a2{
+    padding: 30px;
+    background-image: url(../img/rating/2.png);
+    background-size: cover;
+        background-repeat: no-repeat;
+}
+
+#a3{
+    padding: 30px;
+    background-image: url(../img/rating/3.png);
+    background-size: cover;
+        background-repeat: no-repeat;
+}
+#a4{
+    padding: 30px;
+    background-image: url(../img/rating/4.png);
+    background-size: cover;
+}
+#a5{
+    padding: 30px;
+    background-image: url(../img/rating/5.png);
+    background-size: cover;
+        background-repeat: no-repeat;
+}
+
+.ratingNum{
+    margin-right: 20px;
+    font-family: sans-serif; 
+}
+
+#comment{
+    margin-top: 20px; 
+    font-family: sans-serif;
+    width: 90%;
+    height: 100px; 
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 20px;
+}
+
+#submit{
+    background-color:#008CBA;
+    -moz-border-radius:12px;
+    -webkit-border-radius:12px;
+    border-radius:12px;
+    border:1px solid #008CBA;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:16px;
+    padding:12px 31px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #2f6627;
+    margin-top: 20px; 
+}
+
+#rating{
+    font-family: arial; 
+    background-color: green; 
+    width: 90px;
+    border: 1px solid green;
+    border-radius: 10%; 
+    padding: 5px; 
+    color: white;
+    font-size: 30px;
+}
+
+#location{
+    font-family: arial; 
+    color: grey; 
+    font-size: 20px; 
+    font-weight: 200; 
+}
+
+#reviews{
+    background-color: white;
+    box-shadow: 0 0 10px #9ecaed; 
+    border-radius: 5px; 
+    height: auto; 
+}
+
+#reviews h2{
+    margin-left: 5%;
+    padding-top: 10px; 
+    font-family: sans-serif; 
+    color: dimgray; 
+}
+
+table {
+    margin-left: 5%; 
+    font-family: arial; 
+    border-bottom: 1px solid; 
+}
+
+td{
+    padding: 5px; 
+}
+
+#dp {
+    width: 80px; 
+    height: 80px; 
+    background-color: antiquewhite; 
+    border-radius: 50%; 
+}
+
+#smalRating{
+    background-color: green; 
+    width: 50px;
+    border: 1px solid green;
+    border-radius: 5px; 
+    color: white;
+}
+
+@media screen and (max-width: 615px){
+    #results{
+        margin-left: 10px; 
+        margin-top: 80px;
+        width: 90%
+    }
+}

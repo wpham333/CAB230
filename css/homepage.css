@@ -1,0 +1,272 @@
+body {
+    margin: 0 auto; 
+    background-image: url(../img/header2.jpg);
+    background-size: cover; 
+    background-attachment: fixed;
+}
+
+#Logo {
+	margin-left: 25%; 
+	margin-right: 25%; 
+	margin-top:10%;
+}
+
+#Logo img{
+	width: 100%;
+	height: auto;
+} 
+
+#searchBar {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    font-style: italic;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 20px;
+    position: absolute;
+    margin-left: 25%; 
+	margin-right: 25%; 
+    width: 40%
+}
+
+input, select, textarea{
+    color:dimgray;
+}
+
+#searchBar:focus {
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed
+}
+
+.searchButton {
+    background-color:#008CBA;
+    -moz-border-radius:12px;
+    -webkit-border-radius:12px;
+    border-radius:12px;
+    border:1px solid #008CBA;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:16px;
+    padding:12px 31px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #2f6627;
+    margin-left: 66%
+}
+
+.searchButton:hover {
+    background-color:#05759a;
+    border:1px solid #05759a;
+}
+
+#popularParks {
+    margin-top: 25%; 
+    background-color: white; 
+    width: 100%; 
+    height: auto; 
+    padding-bottom: 15%; 
+}
+
+#popularParks h1 {
+    font-family: sans-serif; 
+    color: dimgray; 
+    font-size: 70px; 
+    text-align: center; 
+    padding-top: 15px;
+    text-decoration: underline #ff6868; 
+}
+
+#imageHolder{
+    width: 100%;
+    margin: 0 auto; 
+}
+
+#popularParks .img {
+    display: inline-block; 
+    margin-left: 15%; 
+    width: 250px; 
+    height: 250px; 
+    border-radius: 50%; 
+    border: 5px solid #ff6868;  
+    margin-top: 20px; 
+}
+
+.overlay{
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 50%; 
+    height: 250px;
+    width: 250;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+    margin-bottom: 30px; 
+}
+
+.img:hover .overlay{
+    opacity: 0.5; 
+}
+
+.namesPark {  
+    margin-top: 50px;
+    margin-left: 20%;  
+    background-color: aqua; 
+	background-color:#34a2eb;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:19px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.namesPark:hover {
+	background-color:#4a90e6;
+}
+.namesPark:active {
+	top:1px;
+}
+
+@media screen and (max-width: 600px){
+    #Logo {
+        margin-left: 10%;
+        margin-right: 10%;
+    } 
+    
+    .searchButton {
+        visibility: hidden; 
+    }
+    
+    #searchText{
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    #filters{
+        width: 90%;
+    }
+}
+
+#searchHead{
+    width: 100%; 
+    height: 200px; 
+}
+
+input[type=text] {
+    position: absolute; 
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    font-style: italic;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 20px;
+    margin-left: 25%; 
+    margin-right: 25%; 
+    margin-top: 80px;  
+    width: 40%
+}
+
+input, select, textarea{
+    color:dimgray;
+}
+
+input[type=text]:focus {
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed
+}
+
+#filters{
+    position: absolute; 
+    margin-top: 140px; 
+    margin-left: 25%;
+    width: 50%; 
+    height: auto; 
+}
+
+#selects{
+    font-family: arial;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 10px 20px 12px 20px;
+}
+    
+#pickRatings{
+    font-family: arial;
+    border-radius: 4px;
+    margin-left: 5px; 
+    width: 125px; 
+    font-size: 16px;
+    padding: 10px 20px 12px 20px;
+}
+    
+#suburb {
+    margin-top: 0px; 
+    font-family: arial;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-left: 1%; 
+    width: 150px; 
+    padding: 10px 10px 12px 15px;       
+}
+
+.searchButton {
+    background-color:#008CBA;
+    -moz-border-radius:12px;
+    -webkit-border-radius:12px;
+    border-radius:12px;
+    border:1px solid #008CBA;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:16px;
+    padding:12px 31px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #2f6627;
+    position: absolute; 
+    margin-top: 80px;  
+    margin-left: 66%; 
+}
+
+.searchButton:hover {
+    background-color:#05759a;
+    border:1px solid #05759a;
+}
+
+.searchButton:active{
+    top:50%;
+}
+    
+    @media screen and (max-width: 403px){
+    #searchHead{
+        height: 250px; 
+    }
+    #filters{
+        margin-left: 10%;
+        width: 70%;
+    }
+        
+    input[type=text]{
+            margin-left: 6%;
+    }
+    
+}
+
+</style>
+
